@@ -1,0 +1,8 @@
+{
+  "criteria": ["Option", "Setup effort", "Data location", "Ongoing work"],
+  "options": [
+    ["Hosted", "Low", "Offsite", "Provider operates it"],
+    ["Self-hosted", "Higher", "Your environment", "Your team maintains it"],
+    ["Hybrid", "Higher + integration", "Sensitive data local", "Local ops + integration"]
+  ]
+}

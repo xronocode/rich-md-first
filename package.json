@@ -1,0 +1,17 @@
+{
+  "name": "rich-md-first-checks",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node scripts/check-examples.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "markdown-it": "14.1.0",
+    "pele": "1.6.0",
+    "yaml": "2.8.1"
+  }
+}
