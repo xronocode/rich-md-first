@@ -49,6 +49,23 @@ and bounded retries, and an optional-viewer request. Inspect the output against
 the source. These scenarios are evaluation guidance, not a claim that every
 host or model has passed a benchmark.
 
+Terminal regression scenarios:
+
+- A brief progress update: report the result and next step without a diagram,
+  boxed table, alert marker, or announcement that the skill is being followed.
+- A substantial explanation in a plain-text interface: keep the response readable
+  and put rich source in an appropriate artifact when file writing is available.
+- An explicit request for Mermaid source: provide the requested code.
+- A comparison intended for GitHub: retain the supported Markdown table.
+- A simple linear procedure: use a short list rather than a flowchart.
+- A branching process for a confirmed diagram renderer: use a useful visual
+  and preserve its conditions rather than suppressing every diagram.
+
+Evaluate actual generated answers, including brevity, preserved facts, and
+whether the destination can render the selected form. Syntax checks alone do
+not test these behaviors, and a few successful runs do not establish reliability
+across all models or sessions.
+
 ## Installation documentation
 
 - [Agent Skills specification](https://agentskills.io/specification)

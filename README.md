@@ -75,6 +75,15 @@ for the reader's question, preserves the source facts, and adapts to the
 destination. You can ask about the work itself instead of requesting a separate
 formatting pass. Small answers stay short.
 
+The first choice is whether a visual helps at all. A fact can stay a sentence;
+a simple sequence can stay a list. A table, diagram, or chart earns its place
+when it makes the comparison, relationships, or pattern easier to understand.
+
+In a terminal, brief updates stay in plain text. A Mermaid code block is diagram
+source; the skill uses it in a compatible document or preview, with a readable
+summary in the conversation. It does not turn every status message into a table
+or flowchart.
+
 ## See the inputs and results
 
 - [Read the full rollout review](examples/document/brief.md) — one brief, a long plain reply, and a structured document.
